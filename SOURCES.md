@@ -94,8 +94,12 @@ map dots (1 = lead, 2–13 = the twelve cards, 14–30 = the briefs).
 - **24 — Japan scrambles jets.** Japan scrambled fighter jets and protested a
   suspected Russian airspace violation; Seoul and Taipei responded too. (Just
   Security; ASAS Press.)
-- **25 — EU charges Temu.** The EU charged Temu over illegal product sales.
-  (Bermuda Broadcasting/BBC wire headlines.)
+- **25 — Pope Leo XIV returns to Rome.** The Pope flew home to Rome on Tuesday
+  17 November, landing at Fiumicino at 8:48 a.m. and closing his 12-day
+  apostolic journey to Uruguay, Argentina and Peru — his first visit to South
+  America as Pope, ending with a farewell Mass for about 1.5 million people in
+  Lima. (Holy See Press Office bulletin, 17 November 2026; NPR, 17 November;
+  EWTN Vatican, 17 November.)
 - **26 — Florida floods.** Flood watches/warnings along Florida's east coast.
   (Daytona Beach News-Journal / National Weather Service.)
 - **27 — Andhra cyclone.** A severe cyclone of the north-east monsoon season
@@ -125,3 +129,8 @@ COP31 target (see 22); $92.76 Brent (see 2); 17 killed in South Africa (see
 One candidate brief was dropped for failing the competition's date rule: a South
 Sudan certified-accountants institute was announced on 12 November and launches
 on 18 November — neither on 17 November. It was replaced by the APEC brief (29).
+
+A second swap fixed the six-continent claim: the EU–Temu brief (25) was replaced
+by the Pope's return to Rome, because no brief named a South American story and
+the "6 continents" claim needs one. The Pope story was reported on 17 November
+by three independent sources (see 25).

@@ -10,7 +10,7 @@
     font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
     background: #f6f1e6;
     color: #16130d;
-    padding: 22px 34px 20px 34px;
+    padding: 14px 34px 12px 34px;
     display: flex; flex-direction: column;
   }
   .serif { font-family: Georgia, "Liberation Serif", "Times New Roman", serif; }
@@ -19,64 +19,85 @@
   .masthead { display: flex; justify-content: space-between; align-items: flex-end; }
   .brand h1 {
     font-family: Georgia, "Liberation Serif", serif;
-    font-size: 49px; letter-spacing: 1px; line-height: 1; font-weight: 700;
+    font-size: 46px; letter-spacing: 1px; line-height: 1; font-weight: 700;
   }
   .brand .tag {
-    margin-top: 5px; font-size: 13px; letter-spacing: 3.2px; font-weight: 700; color: #5a5344;
+    margin-top: 4px; font-size: 12.5px; letter-spacing: 3px; font-weight: 700; color: #5a5344;
   }
   .datebox { text-align: right; }
   .datebox .dow {
     display: inline-block; background: #b3202a; color: #fff; font-weight: 700;
-    font-size: 15px; letter-spacing: 4px; padding: 4px 10px 3px 14px;
+    font-size: 14px; letter-spacing: 4px; padding: 4px 10px 3px 14px;
   }
   .datebox .date {
     font-family: Georgia, "Liberation Serif", serif;
-    font-size: 31px; font-weight: 700; color: #b3202a; line-height: 1.12; margin-top: 5px;
+    font-size: 28px; font-weight: 700; color: #b3202a; line-height: 1.12; margin-top: 4px;
   }
-  .datebox .sub { font-size: 12.5px; letter-spacing: 1.6px; color: #5a5344; font-weight: 700; margin-top: 2px; }
-  .rule-double { border-top: 4px solid #16130d; border-bottom: 1.5px solid #16130d; height: 4px; margin: 10px 0 12px 0; }
+  .datebox .sub { font-size: 12px; letter-spacing: 1.6px; color: #5a5344; font-weight: 700; margin-top: 2px; }
+  .rule-double { border-top: 4px solid #16130d; border-bottom: 1.5px solid #16130d; height: 4px; margin: 8px 0 10px 0; }
 
   /* ---------- lead ---------- */
-  .lead { display: flex; gap: 22px; }
+  .lead { display: flex; gap: 20px; }
   .lead .txt { flex: 1 1 58%; }
   .lead .art { flex: 1 1 42%; }
   .chip {
-    display: inline-block; color: #fff; font-size: 12.5px; font-weight: 700;
-    letter-spacing: 2.2px; padding: 3px 9px 2px 9px; margin-bottom: 8px;
+    display: inline-block; color: #fff; font-size: 11px; font-weight: 700;
+    letter-spacing: 2px; padding: 3px 8px 2px 8px; margin-bottom: 4px;
   }
   .lead h2 {
     font-family: Georgia, "Liberation Serif", serif;
-    font-size: 37px; line-height: 1.08; font-weight: 700;
+    font-size: 32px; line-height: 1.08; font-weight: 700;
   }
-  .lead p { font-size: 16px; line-height: 1.4; margin-top: 7px; color: #2c2820; }
+  .lead p { font-size: 13.5px; line-height: 1.36; margin-top: 6px; color: #2c2820; }
   .lead p b { color: #16130d; }
+
+  /* ---------- map band ---------- */
+  .mapband { display: flex; gap: 14px; margin-top: 9px; }
+  .map { flex: 0 0 648px; background: #e9e2cf; border-top: 2.5px solid #16130d; padding: 6px 8px 4px 8px; }
+  .map .maptitle { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #16130d; }
+  .map .mapleg { font-size: 9px; letter-spacing: 0.3px; color: #5a5344; margin-top: 2px; line-height: 1.3; white-space: nowrap; }
+  .map .mapleg b { color: #b3202a; }
+  .numbers { flex: 1; background: #16130d; color: #f6f1e6; padding: 8px 12px 7px 12px; }
+  .numbers .ntitle { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #ffb3ab; }
+  .numbers .nrow { display: flex; justify-content: space-between; margin-top: 6px; }
+  .numbers .ncell { flex: 1; }
+  .numbers .nbig {
+    font-family: Georgia, "Liberation Serif", serif;
+    font-size: 24px; font-weight: 700; line-height: 1; color: #fff;
+  }
+  .numbers .nlab { font-size: 9.5px; letter-spacing: 1.2px; font-weight: 700; color: #c9c2ae; margin-top: 3px; line-height: 1.3; }
+  .numbers .nnote { font-size: 10.5px; line-height: 1.4; color: #d8d2bd; margin-top: 7px; border-top: 1px solid #4a4436; padding-top: 6px; }
+  .numbers .nnote b { color: #fff; }
 
   /* ---------- grid ---------- */
   .grid {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 11px 20px; margin-top: 13px;
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px 18px; margin-top: 9px;
   }
-  .card { border-top: 2.5px solid #16130d; padding-top: 7px; }
+  .card { border-top: 2.5px solid #16130d; padding-top: 4px; }
   .card h3 {
     font-family: Georgia, "Liberation Serif", serif;
-    font-size: 19.5px; line-height: 1.15; font-weight: 700;
+    font-size: 14px; line-height: 1.12; font-weight: 700;
   }
-  .card p { font-size: 13.5px; line-height: 1.33; color: #33302a; margin-top: 3px; }
-
-  /* ---------- wide card ---------- */
-  .wide { display: flex; gap: 18px; align-items: center; border-top: 2.5px solid #16130d; margin-top: 12px; padding-top: 8px; }
-  .wide .txt { flex: 1; }
-  .wide h3 { font-family: Georgia, "Liberation Serif", serif; font-size: 21px; line-height: 1.15; }
-  .wide p { font-size: 14px; line-height: 1.36; color: #33302a; margin-top: 3px; }
-
-  /* ---------- ticker & footer ---------- */
-  .ticker {
-    margin-top: 11px; background: #16130d; color: #f6f1e6;
-    font-size: 13px; line-height: 1.42; padding: 8px 14px;
+  .card p { font-size: 10.5px; line-height: 1.25; color: #33302a; margin-top: 3px; }
+  .card .num {
+    display: inline-block; background: #b3202a; color: #fff; font-size: 10px; font-weight: 700;
+    width: 15px; height: 15px; line-height: 15px; text-align: center; border-radius: 50%;
+    margin-right: 4px; vertical-align: 1px;
   }
-  .ticker b { color: #ffb3ab; letter-spacing: 1.6px; }
+
+  /* ---------- briefs ---------- */
+  .briefs { border-top: 2.5px solid #16130d; margin-top: 9px; padding-top: 6px; }
+  .briefs .btitle { font-size: 11px; font-weight: 700; letter-spacing: 2px; margin-bottom: 4px; }
+  .briefs .btitle span { color: #b3202a; }
+  .bgrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3px 18px; }
+  .brief { font-size: 10.5px; line-height: 1.28; color: #2c2820; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .brief b { color: #16130d; }
+
+  /* ---------- footer ---------- */
   .footer {
-    margin-top: 8px; display: flex; justify-content: space-between;
-    font-size: 12px; letter-spacing: 1.2px; color: #5a5344; font-weight: 700;
+    margin-top: auto; display: flex; justify-content: space-between;
+    font-size: 11.5px; letter-spacing: 1.2px; color: #5a5344; font-weight: 700;
+    border-top: 1.5px solid #16130d; padding-top: 5px;
   }
 </style>
 </head>
@@ -90,114 +111,211 @@
     <div class="datebox">
       <span class="dow">TUESDAY</span>
       <div class="date">17 NOVEMBER 2026</div>
-      <div class="sub">WORLD NEWS, SUMMED UP</div>
+      <div class="sub">30 STORIES &middot; 6 CONTINENTS &middot; ONE MAP</div>
     </div>
   </div>
   <div class="rule-double"></div>
 
   <div class="lead">
     <div class="txt">
-      <span class="chip" style="background:#b3202a">EUROPE &middot; WAR</span>
+      <span class="chip" style="background:#b3202a">1 &middot; EUROPE &middot; WAR</span>
       <h2>Ukraine blows a gap in the Crimea Bridge</h2>
       <p>A Ukrainian strike <b>collapsed a road span of the Kerch Bridge</b>, the only link
-      between Russia and occupied Crimea. President Zelenskyy hailed an &ldquo;unprecedented
-      operation&rdquo; weeks in the making &mdash; and Russian missiles answered the same
-      day against Kyiv&rsquo;s bridges over the Dnipro.</p>
+      between Russia and occupied Crimea. Zelenskyy hailed an &ldquo;unprecedented operation&rdquo;
+      weeks in the making; Russian missiles hit Kyiv&rsquo;s bridges the same day.</p>
     </div>
     <div class="art">
-      <svg width="100%" height="198" viewBox="0 10 380 198">
+      <svg width="100%" height="138" viewBox="0 10 380 198">
         <rect x="0" y="0" width="380" height="218" fill="#e9e2cf"/>
         <rect x="0" y="168" width="380" height="50" fill="#7fa6b8"/>
         <path d="M0 168 Q 40 160 80 168 T 160 168 T 240 168 T 320 168 T 400 168" stroke="#5d8699" stroke-width="3" fill="none"/>
         <path d="M0 190 Q 40 184 80 190 T 160 190 T 240 190 T 320 190 T 400 190" stroke="#5d8699" stroke-width="2.5" fill="none"/>
-        <!-- pylons -->
         <rect x="70" y="60" width="12" height="112" fill="#3d3a33"/>
         <rect x="268" y="60" width="12" height="112" fill="#3d3a33"/>
-        <!-- cables -->
         <path d="M76 60 L 20 118 M76 60 L 130 118 M274 60 L 222 118 M274 60 L 330 118" stroke="#3d3a33" stroke-width="2.5"/>
-        <!-- intact deck left + right -->
         <rect x="8" y="116" width="150" height="9" fill="#3d3a33"/>
         <rect x="238" y="116" width="134" height="9" fill="#3d3a33"/>
-        <!-- broken span, tilted into the water -->
         <g transform="rotate(24 190 150)">
           <rect x="152" y="126" width="92" height="9" fill="#b3202a"/>
         </g>
-        <!-- falling debris + splash -->
         <rect x="196" y="150" width="10" height="7" fill="#b3202a" transform="rotate(30 201 153)"/>
         <path d="M176 168 q6 -12 12 0 M206 168 q6 -12 12 0 M188 172 q5 -9 10 0" stroke="#f6f1e6" stroke-width="2.5" fill="none"/>
-        <!-- sun -->
         <circle cx="330" cy="34" r="17" fill="#d9a441"/>
       </svg>
     </div>
   </div>
 
+  <div class="mapband">
+    <div class="map">
+      <div class="maptitle">THE DAY ON THE MAP &mdash; NUMBERED TO THE STORIES BELOW</div>
+      <svg width="632" height="120" viewBox="0 0 1000 210" style="display:block; margin-top:2px;">
+        <!-- ocean -->
+        <rect x="0" y="0" width="1000" height="210" fill="#c7dde2"/>
+        <!-- graticule -->
+        <g stroke="#ffffff" stroke-width="1" opacity="0.55">
+          <line x1="167" y1="0" x2="167" y2="210"/><line x1="333" y1="0" x2="333" y2="210"/>
+          <line x1="500" y1="0" x2="500" y2="210"/><line x1="667" y1="0" x2="667" y2="210"/>
+          <line x1="833" y1="0" x2="833" y2="210"/>
+          <line x1="0" y1="23" x2="1000" y2="23"/><line x1="0" y1="117" x2="1000" y2="117"/>
+          <line x1="0" y1="163" x2="1000" y2="163"/>
+        </g>
+        <!-- land (simplified equirectangular) -->
+        <g fill="#d9cfae" stroke="#8a7f5c" stroke-width="1.5">
+          <path d="M40,42 L110,20 L190,13 L260,11 L300,18 L335,32 L345,49 L330,67 L310,77 L285,83 L250,90 L200,95 L150,90 L100,81 L60,67 L35,53 Z"/>
+          <path d="M300,6 L340,4 L360,11 L340,21 L305,18 Z"/>
+          <path d="M295,104 L355,98 L398,112 L408,132 L388,163 L362,194 L340,208 L322,186 L302,154 L282,126 Z"/>
+          <path d="M470,36 L480,19 L500,11 L530,7 L560,10 L590,16 L610,26 L605,38 L585,47 L560,51 L530,49 L505,45 L485,41 Z"/>
+          <path d="M495,21 L505,15 L510,22 L500,29 Z"/>
+          <path d="M455,74 L480,66 L520,62 L560,65 L600,68 L625,78 L645,94 L630,118 L615,142 L600,161 L585,169 L565,163 L545,148 L520,134 L490,120 L465,100 L452,86 Z"/>
+          <path d="M625,144 L635,140 L640,154 L630,165 L622,154 Z"/>
+          <path d="M615,25 L680,8 L780,6 L880,8 L960,18 L990,32 L975,53 L950,67 L920,77 L900,95 L870,102 L840,91 L800,95 L780,77 L750,67 L720,60 L680,53 L640,49 L618,39 Z"/>
+          <path d="M790,67 L810,63 L815,84 L795,98 L785,81 Z"/>
+          <path d="M660,56 L690,53 L700,70 L675,81 L660,67 Z"/>
+          <ellipse cx="880" cy="105" rx="14" ry="4"/><ellipse cx="912" cy="109" rx="16" ry="4"/><ellipse cx="945" cy="104" rx="10" ry="3"/>
+          <path d="M820,105 L860,97 L905,99 L930,109 L925,123 L900,134 L860,137 L830,126 L815,116 Z"/>
+          <path d="M955,140 L965,137 L968,151 L958,158 Z"/>
+        </g>
+        <!-- ocean labels -->
+        <g font-family="Liberation Sans, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#5d8699" font-weight="700">
+          <text x="70" y="160">PACIFIC</text>
+          <text x="380" y="150">ATLANTIC</text>
+          <text x="700" y="185">INDIAN</text>
+          <text x="880" y="60">PACIFIC</text>
+        </g>
+        <!-- numbered dots: 1 lead + 12 cards -->
+        <g font-family="Liberation Sans, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+          <g><circle cx="600" cy="44" r="11" fill="#b3202a"/><text x="600" y="48" fill="#fff">1</text></g>
+          <g><circle cx="662" cy="70" r="11" fill="#b3202a"/><text x="662" y="74" fill="#fff">2</text></g>
+          <g><circle cx="638" cy="84" r="11" fill="#b3202a"/><text x="638" y="88" fill="#fff">3</text></g>
+          <g><circle cx="836" cy="94" r="11" fill="#b3202a"/><text x="836" y="98" fill="#fff">4</text></g>
+          <g><circle cx="161" cy="59" r="11" fill="#b3202a"/><text x="161" y="63" fill="#fff">5</text></g>
+          <g><circle cx="276" cy="80" r="11" fill="#b3202a"/><text x="276" y="84" fill="#fff">6</text></g>
+          <g><circle cx="286" cy="58" r="11" fill="#b3202a"/><text x="286" y="62" fill="#fff">7</text></g>
+          <g><circle cx="500" cy="36" r="11" fill="#b3202a"/><text x="500" y="40" fill="#fff">8</text></g>
+          <g><circle cx="305" cy="44" r="11" fill="#b3202a"/><text x="305" y="48" fill="#fff">9</text></g>
+          <g><circle cx="237" cy="56" r="11" fill="#b3202a"/><text x="237" y="60" fill="#fff">10</text></g>
+          <g><circle cx="583" cy="124" r="11" fill="#b3202a"/><text x="583" y="128" fill="#fff">11</text></g>
+          <g><circle cx="578" cy="161" r="11" fill="#b3202a"/><text x="578" y="165" fill="#fff">12</text></g>
+          <g><circle cx="543" cy="127" r="11" fill="#b3202a"/><text x="543" y="131" fill="#fff">13</text></g>
+        </g>
+      </svg>
+      <div class="mapleg"><b>1</b> Crimea &middot; <b>2</b> Hormuz &middot; <b>3</b> Bahrain &middot; <b>4</b> Manila &middot; <b>5</b> Calif. &middot; <b>6</b> Florida &middot; <b>7</b> D.C. &middot; <b>8</b> London &middot; <b>9</b> New York &middot; <b>10</b> USA &middot; <b>11</b> Rwanda &middot; <b>12</b> S. Africa &middot; <b>13</b> Congo</div>
+    </div>
+    <div class="numbers">
+      <div class="ntitle">THE DAY IN NUMBERS</div>
+      <div class="nrow">
+        <div class="ncell"><div class="nbig">30</div><div class="nlab">STORIES</div></div>
+        <div class="ncell"><div class="nbig">6</div><div class="nlab">CONTINENTS</div></div>
+      </div>
+      <div class="nrow">
+        <div class="ncell"><div class="nbig">$115.8bn</div><div class="nlab">NVIDIA REVENUE</div></div>
+        <div class="ncell"><div class="nbig">5,568</div><div class="nlab">EBOLA DEATHS</div></div>
+      </div>
+      <div class="nnote"><b>40</b> satellites lost &middot; <b>$120bn</b> COP31 target &middot; <b>$92.76</b> Brent &middot; <b>17</b> killed in S. Africa &middot; <b>224</b> jailed in Guinea</div>
+    </div>
+  </div>
+
   <div class="grid">
     <div class="card">
-      <span class="chip" style="background:#c26a1b">MIDDLE EAST &middot; ENERGY</span>
+      <span class="chip" style="background:#c26a1b"><span class="num">2</span> MIDDLE EAST &middot; ENERGY</span>
       <h3>Iran says two tankers hit mines in the Strait of Hormuz</h3>
-      <p>The Revolutionary Guards said two oil tankers struck naval mines and caught fire
-      on a route Tehran calls unauthorised &mdash; a claim not independently verified.
-      A third US aircraft carrier reached the region, and Brent crude held near $92.76.</p>
+      <p>The Guards said two tankers struck naval mines and caught fire on a route Tehran
+      calls unauthorised &mdash; unverified. A third US carrier arrived; Brent held near $92.76.</p>
     </div>
     <div class="card">
-      <span class="chip" style="background:#1d6fb8">ASIA &middot; DIPLOMACY</span>
+      <span class="chip" style="background:#7a1f1f"><span class="num">3</span> MIDDLE EAST &middot; WAR</span>
+      <h3>Iran fires drones at a US radar base in Bahrain</h3>
+      <p>Tehran said its drones hit a US radar system at Sheikh Isa base; Bahrain said it
+      intercepted the attack, with no casualties. Washington called it a sharp escalation.</p>
+    </div>
+    <div class="card">
+      <span class="chip" style="background:#1d6fb8"><span class="num">4</span> ASIA &middot; DIPLOMACY</span>
       <h3>Trump lands in Manila for the ASEAN summit</h3>
       <p>The president arrived in the Philippines and signed a joint trade statement with
-      Thailand, opening a three-day Asia trip that ends in China with three-way talks
-      alongside Xi Jinping and Vladimir Putin.</p>
+      Thailand, opening a three-day Asia trip ending in China with talks alongside Xi and Putin.</p>
     </div>
     <div class="card">
-      <span class="chip" style="background:#1e7d46">MARKETS &middot; TECH</span>
+      <span class="chip" style="background:#1e7d46"><span class="num">5</span> MARKETS &middot; TECH</span>
       <h3>Nvidia beats forecasts in first report since Huang&rsquo;s exit</h3>
       <p>Revenue jumped 103% to $115.8bn as data-centre sales hit $107.6bn, and Nvidia
-      guided to $130bn next quarter. It was the chipmaker&rsquo;s first report since
-      co-founder Jensen Huang resigned; interim chief Colette Kress led the call.</p>
+      guided to $130bn next quarter. First report since co-founder Jensen Huang resigned.</p>
     </div>
     <div class="card">
-      <span class="chip" style="background:#5b4bc4">SPACE</span>
+      <span class="chip" style="background:#5b4bc4"><span class="num">6</span> SPACE</span>
       <h3>Vulcan rocket fails &mdash; 40 Amazon satellites lost</h3>
-      <p>ULA said its Vulcan&rsquo;s first stage underperformed just after Sunday&rsquo;s
-      liftoff from Cape Canaveral, dooming 40 Amazon Leo internet satellites. It is
-      ULA&rsquo;s first total mission failure since 2006, and the fleet is grounded.</p>
+      <p>ULA said its Vulcan&rsquo;s first stage underperformed just after Sunday&rsquo;s liftoff
+      from Cape Canaveral, dooming 40 Amazon Leo satellites. ULA&rsquo;s first total failure since 2006.</p>
     </div>
     <div class="card">
-      <span class="chip" style="background:#0e7c86">TECH &middot; TRADE WAR</span>
+      <span class="chip" style="background:#0e7c86"><span class="num">7</span> TECH &middot; TRADE WAR</span>
       <h3>US moves to close the AI-chip loophole for China</h3>
-      <p>The Commerce Department moved to curb China&rsquo;s remote access to American
-      AI computing power, tightening the export rules around renting US chips through
-      the cloud &mdash; and chip shares climbed on the day.</p>
+      <p>The Commerce Department moved to curb China&rsquo;s remote access to American AI
+      computing power, tightening rules on renting US chips through the cloud &mdash; and chip shares climbed.</p>
     </div>
     <div class="card">
-      <span class="chip" style="background:#8a5a12">BRITAIN &middot; GAZA</span>
+      <span class="chip" style="background:#8a5a12"><span class="num">8</span> BRITAIN &middot; GAZA</span>
       <h3>UK sanctions settlement firms as allies press on Gaza aid</h3>
-      <p>Britain sanctioned eight Israeli construction companies building settlements
-      in the occupied West Bank, while the UK, Australia, Canada and Italy jointly
-      urged Israel to open Gaza&rsquo;s crossings to humanitarian aid.</p>
+      <p>Britain sanctioned eight Israeli construction firms building settlements in the
+      West Bank, as the UK, Australia, Canada and Italy jointly urged Israel to open Gaza&rsquo;s crossings to aid.</p>
     </div>
-  </div>
-
-  <div class="wide">
-    <svg width="86" height="64" viewBox="0 0 86 64">
-      <path d="M6 22 L43 6 L80 22 Z" fill="#274b73"/>
-      <rect x="12" y="28" width="9" height="22" fill="#274b73"/>
-      <rect x="28" y="28" width="9" height="22" fill="#274b73"/>
-      <rect x="49" y="28" width="9" height="22" fill="#274b73"/>
-      <rect x="65" y="28" width="9" height="22" fill="#274b73"/>
-      <rect x="6" y="53" width="74" height="5" fill="#274b73"/>
-    </svg>
-    <div class="txt">
-      <span class="chip" style="background:#274b73">UNITED STATES &middot; BANKING</span>
+    <div class="card">
+      <span class="chip" style="background:#274b73"><span class="num">9</span> UNITED STATES &middot; BANKING</span>
       <h3>JPMorgan blames a software bug for Monday&rsquo;s banking outage</h3>
       <p>The glitch slowed online banking, branch transactions and Zelle payments across
-      the United States. The bank said there was no indication the disruption was a
-      cyberattack.</p>
+      the US. The bank said there was no indication the disruption was a cyberattack.</p>
+    </div>
+    <div class="card">
+      <span class="chip" style="background:#8c2f6b"><span class="num">10</span> AMERICAS &middot; HEALTH</span>
+      <h3>US, Mexico and Bolivia lose measles-free status</h3>
+      <p>PAHO said endemic transmission is back in all three after the same strain circulated
+      for a year or more. The US held the status 26 years; 5,400+ cases in 2026, the most since 1991.</p>
+    </div>
+    <div class="card">
+      <span class="chip" style="background:#1d6fb8"><span class="num">11</span> EUROPE &middot; MIGRATION</span>
+      <h3>Five EU states plan a Rwanda hub for deported migrants</h3>
+      <p>The plan would send rejected asylum seekers to Rwanda from 2027, Euronews reported.
+      Rights groups condemned it; the states say it will deter crossings and break the smugglers&rsquo; model.</p>
+    </div>
+    <div class="card">
+      <span class="chip" style="background:#6b4a1f"><span class="num">12</span> AFRICA &middot; CRIME</span>
+      <h3>Seventeen killed in two mass shootings in South Africa</h3>
+      <p>Police said 17 people died in separate attacks in KwaZulu-Natal and Gauteng on
+      Monday. The killings renewed a national debate over gun violence and policing in the townships.</p>
+    </div>
+    <div class="card">
+      <span class="chip" style="background:#7a1f1f"><span class="num">13</span> AFRICA &middot; HEALTH</span>
+      <h3>Congo&rsquo;s Ebola outbreak still out of control, 5,568 dead</h3>
+      <p>Africa CDC said the six-month-old outbreak is spreading at a record pace, with
+      11,376 cases. Two experimental vaccines enter phase 2 trials; only $1.3bn of $2.9bn pledged is released.</p>
     </div>
   </div>
 
-  <div class="ticker"><b>ALSO ON TUESDAY</b> &nbsp;Pentagon fails its financial audit for a ninth straight year &middot; Japan scrambles jets after a suspected Russian airspace violation &middot; EU charges Temu over illegal product sales &middot; Flood warnings line Florida&rsquo;s east coast &middot; A severe cyclone bears down on India&rsquo;s Andhra coast</div>
+  <div class="briefs">
+    <div class="btitle">MORE FROM TUESDAY <span>&mdash; 17 BRIEFS FROM EVERY CONTINENT</span></div>
+    <div class="bgrid">
+      <div class="brief"><b>Mongolia&rsquo;s president quits</b> over graft claims.</div>
+      <div class="brief"><b>Student List takes Serbia&rsquo;s parliament:</b> 140 of 250.</div>
+      <div class="brief"><b>France strikes over pay;</b> 300,000 marchers expected.</div>
+      <div class="brief"><b>Estonia to shut Russian border</b> after GRU arson plot.</div>
+      <div class="brief"><b>Guinea jails 224</b> over illegal gold mining.</div>
+      <div class="brief"><b>Guatemala weighs siege;</b> US brands three clans terrorists.</div>
+      <div class="brief"><b>Settlers kill a 72-year-old woman</b> near Jericho.</div>
+      <div class="brief"><b>US intel reports say Iran weighed a &ldquo;dirty bomb&rdquo; attack.</b></div>
+      <div class="brief"><b>COP31 draft sets $120bn-a-year adaptation target.</b></div>
+      <div class="brief"><b>Pentagon fails its audit</b> for a ninth straight year.</div>
+      <div class="brief"><b>Japan scrambles jets</b> over suspected Russian incursion.</div>
+      <div class="brief"><b>EU charges Temu</b> over illegal product sales.</div>
+      <div class="brief"><b>Flood warnings line Florida&rsquo;s east coast.</b></div>
+      <div class="brief"><b>Cyclone bears down</b> on India&rsquo;s Andhra coast.</div>
+      <div class="brief"><b>128 states open Geneva talks</b> on banning killer robots.</div>
+      <div class="brief"><b>World leaders gather in China</b> for the APEC summit.</div>
+      <div class="brief"><b>Australia and Japan deepen a research pact.</b></div>
+      <div class="brief"><b>30 stories &middot; 6 continents &middot; one day &middot; one frame.</b></div>
+    </div>
+  </div>
 
   <div class="footer">
-    <span>THE DAILY FRAME &middot; ONE IMAGE, ONE DAY</span>
+    <span>THE DAILY FRAME &middot; 30 STORIES, 6 CONTINENTS, ONE DAY</span>
     <span>FROM THE DAY&rsquo;S WIRE REPORTING: REUTERS &middot; AP &middot; BBC &middot; AL JAZEERA</span>
   </div>
 
